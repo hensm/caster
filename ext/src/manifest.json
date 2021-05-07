@@ -32,7 +32,7 @@
         {
             "all_frames": true
           , "js": [
-                "shim/content.js"
+                "cast/content.js"
             ]
           , "matches": [ "<all_urls>" ]
           , "run_at": "document_start"
@@ -66,7 +66,7 @@
       , "<all_urls>"
     ]
   , "web_accessible_resources": [
-        "shim/bundle.js"
+        "cast/bundle.js"
       , "senders/media/overlay/overlayContent.js"
       , "senders/media/overlay/AirPlay_Audio.svg"
       , "senders/media/overlay/AirPlay_Video.svg"

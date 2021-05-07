@@ -6,7 +6,7 @@ import { TypedEventTarget } from "../lib/TypedEventTarget";
 
 import { Message, Port } from "../messaging";
 import { ReceiverDevice } from "../types";
-import { ReceiverStatus } from "../shim/cast/types";
+import { ReceiverStatus } from "../cast/sdk/types";
 
 
 interface EventMap {

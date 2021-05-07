@@ -2,7 +2,7 @@
 
 import logger from "../../../lib/logger";
 
-import * as cast from "../../cast";
+import * as cast from "../../sdk";
 
 import ApplicationMetadata from "./ApplicationMetadata";
 

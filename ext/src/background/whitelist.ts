@@ -172,13 +172,13 @@ async function onBeforeCastSDKRequest(details: OnBeforeRequestDetails) {
     });
 
     await browser.tabs.executeScript(details.tabId, {
-        file: "shim/contentBridge.js"
+        file: "cast/contentBridge.js"
       , frameId: details.frameId
       , runAt: "document_start"
     });
 
     return {
-        redirectUrl: browser.runtime.getURL("shim/bundle.js")
+        redirectUrl: browser.runtime.getURL("cast/bundle.js")
     };
 }
 

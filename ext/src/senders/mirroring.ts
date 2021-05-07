@@ -1,7 +1,7 @@
 "use strict";
 
 import options from "../lib/options";
-import cast, { ensureInit } from "../shim/export";
+import cast, { ensureInit } from "../cast/export";
 
 import { ReceiverSelectorMediaType } from "../background/receiverSelector";
 import { ReceiverDevice } from "../types";

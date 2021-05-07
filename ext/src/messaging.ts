@@ -12,7 +12,7 @@ import { ReceiverSelection
 import { CastSessionCreated
        , CastSessionUpdated
        , ReceiverStatus
-       , SenderMessage } from "./shim/cast/types";
+       , SenderMessage } from "./cast/sdk/types";
 
 import { ReceiverDevice } from "./types";
 

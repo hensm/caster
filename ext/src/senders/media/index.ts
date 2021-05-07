@@ -2,7 +2,7 @@
 
 import logger from "../../lib/logger";
 import options from "../../lib/options";
-import cast, { ensureInit } from "../../shim/export";
+import cast, { ensureInit } from "../../cast/export";
 
 import { Message } from "../../messaging";
 import { ReceiverDevice } from "../../types";

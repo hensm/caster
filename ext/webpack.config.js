@@ -22,10 +22,10 @@ module.exports = (env) => ({
       , "senders/media/overlay/overlayContentLoader": `${env.includePath}/senders/media/overlay/overlayContentLoader.ts`
       , "senders/mirroring": `${env.includePath}/senders/mirroring.ts`
 
-        // Shim entries
-      , "shim/bundle": `${env.includePath}/shim/index.ts`
-      , "shim/content": `${env.includePath}/shim/content.ts`
-      , "shim/contentBridge": `${env.includePath}/shim/contentBridge.ts`
+        // Cast SDK
+      , "cast/bundle": `${env.includePath}/cast/index.ts`
+      , "cast/content": `${env.includePath}/cast/content.ts`
+      , "cast/contentBridge": `${env.includePath}/cast/contentBridge.ts`
 
         // UI
       , "ui/popup/bundle": `${env.includePath}/ui/popup/index.tsx`

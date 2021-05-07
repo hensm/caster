@@ -1,6 +1,6 @@
 "use strict";
 
-import * as cast from "./cast";
+import * as cast from "./sdk";
 
 import { CAST_FRAMEWORK_SCRIPT_URL } from "../lib/endpoints";
 import { loadScript } from "../lib/utils";

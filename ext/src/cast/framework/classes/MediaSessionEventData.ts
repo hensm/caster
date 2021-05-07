@@ -1,6 +1,6 @@
 "use strict";
 
-import * as cast from "../../cast";
+import * as cast from "../../sdk";
 
 import EventData from "./EventData";
 
